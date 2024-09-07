@@ -38,11 +38,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Pés.",
-                afirmacao: "hyfgh"
+                afirmacao: 
             },
             {
                 texto: "Mãos.",
-                afirmacao: "o."
+                afirmacao: 
             }
         ]
     }
@@ -79,6 +79,6 @@ function respostaSelecionada(opcaoSelecionada) {
 function mostraResultado() {
     caixaPerguntas.textContent = "Resumindo...";
     textoResultado.textContent = historiaFinal;
-    caixaAlternativas.textContent = "";
+    caixaAlternativas.textContent = "oi";
 }
 mostraPergunta();
